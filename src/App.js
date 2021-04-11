@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import List from './components/List'
+import Change from './components/Change'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    <div className="app">
+      <header className="app__header">
+        <img src={logo} className="header__logo" alt="logo" />
+        <p className="header__text">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="header__link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,8 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <List />
+        <Change />
+      </main>
     </div>
   );
 }
 
-export default App;
+export default App

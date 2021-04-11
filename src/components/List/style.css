@@ -1,0 +1,21 @@
+.list {
+  padding-left: 0;
+  margin: 0;
+}
+.list__item {
+  list-style-type: none;
+}
+
+.item__title {
+  margin: 0;
+}
+.item__image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.item__text {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

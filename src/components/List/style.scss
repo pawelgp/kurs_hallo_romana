@@ -1,0 +1,29 @@
+@function rem-calc($size) {
+    $remSize: $size / 16;
+    @return #{$remSize}rem;
+}
+
+.list {
+    padding-left: 0;
+    margin: 0;
+    &__item {
+        // margin: 0;
+        list-style-type: none;
+    }
+}
+
+.item {
+    &__title {
+        margin: 0;
+    }
+    &__image {
+        $size: 50px;
+        height: $size;
+        width: $size;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__text {
+        margin: 0;
+    }
+}
